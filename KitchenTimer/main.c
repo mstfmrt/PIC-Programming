@@ -3,8 +3,11 @@
  * Author: mustafa
  *
  * Created on July 15, 2022, 4:35 PM
+<<<<<<< HEAD
  * 
  * In this project with one button you can set a timer up to 31 min. It shows minutes in binary.
+=======
+>>>>>>> 91d19321da2ad20148a8450cdff551806dd1866a
  */
 
 
@@ -16,8 +19,13 @@
 
 void main(void) {
     unsigned char timer =1;
+<<<<<<< HEAD
     TRISB=0B00100000;//sets b5 as input others as output
     PORTB= 1; //with binary conversion sets output pins high or low
+=======
+    TRISB=0B01100000;
+    PORTB= 1;
+>>>>>>> 91d19321da2ad20148a8450cdff551806dd1866a
     int sTC = WAIT;
     int i;
     while(1){
